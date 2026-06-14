@@ -1,0 +1,151 @@
+/**
+ * Advanced Quiz System - Admin Styles
+ * Version: 1.0.0
+ */
+
+.aqs-admin-panel {
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+}
+
+.aqs-admin-panel h2 {
+    color: #23282d;
+    border-bottom: 2px solid #0073aa;
+    padding-bottom: 10px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.aqs-admin-panel h2:first-child {
+    margin-top: 0;
+}
+
+.aqs-shortcode-examples {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 6px;
+    margin-top: 15px;
+}
+
+.aqs-shortcode-examples h3 {
+    color: #0073aa;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.aqs-shortcode-examples h3:first-child {
+    margin-top: 0;
+}
+
+.aqs-shortcode-examples code {
+    display: block;
+    background: #2c3e50;
+    color: #2ecc71;
+    padding: 12px 15px;
+    border-radius: 4px;
+    margin: 10px 0;
+    font-size: 14px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.aqs-shortcode-examples p {
+    margin: 5px 0 15px 0;
+    color: #666;
+}
+
+.aqs-shortcode-examples ul {
+    list-style: disc;
+    padding-left: 20px;
+    margin: 10px 0;
+}
+
+.aqs-shortcode-examples li {
+    margin: 8px 0;
+    color: #555;
+}
+
+.aqs-shortcode-examples strong {
+    color: #0073aa;
+}
+
+.aqs-chat-monitor {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.aqs-chat-monitor table {
+    margin-top: 20px;
+}
+
+.aqs-chat-monitor td {
+    vertical-align: middle;
+}
+
+.aqs-chat-monitor img {
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+/* Form table improvements */
+.form-table th {
+    width: 250px;
+    font-weight: 600;
+}
+
+.form-table input[type="number"],
+.form-table input[type="text"] {
+    width: 100px;
+}
+
+.form-table input[type="checkbox"] {
+    margin-right: 8px;
+}
+
+.form-table .description {
+    color: #666;
+    font-style: italic;
+    margin-top: 8px;
+}
+
+/* Success/Error messages */
+.aqs-message {
+    padding: 12px 15px;
+    border-radius: 4px;
+    margin: 20px 0;
+}
+
+.aqs-message.success {
+    background: #d4edda;
+    border: 1px solid #c3e6cb;
+    color: #155724;
+}
+
+.aqs-message.error {
+    background: #f8d7da;
+    border: 1px solid #f5c6cb;
+    color: #721c24;
+}
+
+/* Responsive admin */
+@media (max-width: 768px) {
+    .aqs-admin-panel {
+        padding: 20px 15px;
+    }
+    
+    .form-table th {
+        width: auto;
+        display: block;
+        padding-bottom: 5px;
+    }
+    
+    .form-table td {
+        display: block;
+        padding-top: 5px;
+    }
+}

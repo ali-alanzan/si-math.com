@@ -1,0 +1,11 @@
+مسار البلجن (Plugin Path):
+
+المسار الكامل:
+C:\Users\Vexn\saved-questions-tutor
+
+أو المسار النسبي:
+saved-questions-tutor
+
+للاستخدام في WordPress:
+ارفع المجلد إلى: wp-content/plugins/saved-questions-tutor
+
